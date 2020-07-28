@@ -98,8 +98,14 @@
   --color-dark: #0f141e;
   --color-grey: #515151;
 
-  --font-bold: 'ralewaysemibold';
-  --font-regular: 'ralewayregular';
+  --font-weight-bold: 'ralewaysemibold';
+  --font-weight-regular: 'ralewayregular';
+
+  --font-size-large: 3.2rem;
+  --font-size-medium: 2.4rem;
+  --font-size-small: 1.8rem;
+  --font-size-logo-name: 2.4rem;
+  --font-size-logo-role: 1.4rem;
 
   --content-width: 960px;
 }
@@ -121,6 +127,12 @@ html {
   font-family: 'ralewayregular', Arial, sans-serif;
 }
 
+.overline {
+  display: inline-block;
+  border-top: 2px solid var(--color-dark);
+  padding-top: 10px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -128,24 +140,50 @@ html {
 }
 
 .logo__name {
-  font-family: var(--font-bold);
-  font-size: 2.4rem;
+  font-family: var(--font-weight-bold);
+  font-size: var(--font-size-logo-name);
   color: var(--color-dark);
 }
 
 .logo__role {
-  font-family: var(--font-regular);
+  font-family: var(--font-weight-small);
   letter-spacing: 1.3px;
-  font-size: 1.4rem;
+  font-size: var(--font-size-logo-role);
   color: var(--color-grey);
 }
 
 .content {
   max-width: var(--content-width);
   margin: auto;
+  padding: 0 6rem;
 }
 
 .about {
   display: flex;
   justify-content: space-between;
+  padding: 10rem 0;
+}
+
+.about__header {
+  font-family: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+  color: var(--color-dark);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  flex: 3;
+}
+
+.about__biography {
+  font-family: var(--font-weight-regular);
+  font-size: var(--font-size-small);
+  color: var(--color-grey);
+  flex: 4;
+}
+
+.about__biography > p {
+  margin-bottom: 2rem;
+}
+
+.about__biography > p:first-child {
+  font-family: var(--font-weight-bold);
 }
