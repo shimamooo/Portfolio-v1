@@ -14,3 +14,7 @@ body {
   color: #0f141e;
   font-weight: 400;
   line-height: 1.6; }
+
+.header {
+  display: flex;
+  justify-content: space-between; }
