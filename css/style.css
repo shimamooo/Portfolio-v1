@@ -15,6 +15,32 @@ body {
   font-weight: 400;
   line-height: 1.6; }
 
+.container {
+  display: grid;
+  grid-template-columns: [full-start] minmax(10rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(10rem, 1fr) [full-end]; }
+  .container > * {
+    padding: 4rem; }
+
+.about {
+  background-color: lightcoral;
+  grid-column: center-start / center-end; }
+
+.animation {
+  background-color: lightsalmon;
+  grid-column: center-start / center-end; }
+
+.blog {
+  background-color: lightpink;
+  grid-column: center-start / center-end; }
+
+.footer {
+  background-color: lightgreen;
+  grid-column: full-start / full-end; }
+
 .header {
-  display: flex;
-  justify-content: space-between; }
+  background-color: lightyellow;
+  grid-column: full-start / full-end; }
+
+.projects {
+  background-color: lightblue;
+  grid-column: center-start / center-end; }
