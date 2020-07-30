@@ -1,0 +1,102 @@
+:root {
+  --color-dark: #0f141e;
+  --color-grey: #515151;
+
+  --font-weight-bold: 'ralewaysemibold';
+  --font-weight-regular: 'ralewayregular';
+
+  --font-size-large: 3.2rem;
+  --font-size-medium: 2.4rem;
+  --font-size-small: 1.8rem;
+  --font-size-logo-name: 2.4rem;
+  --font-size-logo-role: 1.4rem;
+
+  --content-width: 960px;
+}
+
+.u-overline {
+  display: inline-block;
+  border-top: 2px solid var(--color-dark);
+  padding-top: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.6;
+  font-family: 'ralewayregular', Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.logo__name {
+  font-family: var(--font-weight-bold);
+  font-size: var(--font-size-logo-name);
+  color: var(--color-dark);
+}
+
+.logo__role {
+  font-family: var(--font-weight-small);
+  letter-spacing: 1.3px;
+  font-size: var(--font-size-logo-role);
+  color: var(--color-grey);
+}
+
+.content {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 0 6rem;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+}
+
+.section > header {
+  font-family: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+  color: var(--color-dark);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  flex: 3;
+}
+
+.section > div {
+  font-family: var(--font-weight-regular);
+  font-size: var(--font-size-small);
+  color: var(--color-grey);
+  flex: 4;
+}
+
+.section > div > p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.about__biography > p:first-child {
+  font-family: var(--font-weight-bold);
+}
+
+.about__technologies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.about__technologies > * {
+  border: 1px solid black;
+}
