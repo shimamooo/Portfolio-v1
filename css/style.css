@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   padding: 0 5rem;
   display: grid;
-  grid-gap: 5rem; }
+  grid-gap: 3rem 5rem; }
   .container--about {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); }
   .container--projects {
@@ -44,8 +44,7 @@ body {
   text-transform: lowercase;
   letter-spacing: -2px;
   grid-column: 1 / -1;
-  margin-top: -5rem;
-  margin-bottom: -2rem; }
+  margin-top: -3rem; }
   .heading-2--light {
     color: #0a2540; }
   .heading-2--dark {
@@ -92,3 +91,7 @@ body {
 .projects {
   padding: 10rem 0;
   background-color: #0a2540; }
+
+.blog {
+  padding: 10rem 0;
+  background-color: #fff; }

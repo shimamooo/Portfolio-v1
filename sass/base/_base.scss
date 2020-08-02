@@ -51,7 +51,7 @@ body {
   margin: 0 auto;
   padding: 0 5rem;
   display: grid;
-  grid-gap: 5rem;
+  grid-gap: 3rem 5rem;
 
   &--about {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr))
