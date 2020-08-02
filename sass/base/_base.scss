@@ -47,17 +47,18 @@ body {
 }
 
 .container {
-  max-width: 60em;
+  max-width: 65em;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 8rem;
   display: grid;
-  grid-gap: 3rem 5rem;
+  grid-gap: 3rem 8rem;
 
-  &--about {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr))
+  &--about,
+  &--blog {
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr))
   }
 
   &--projects {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr))
   }
 }
