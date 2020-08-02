@@ -68,7 +68,8 @@ body {
   display: inline-block; }
 
 .link--light {
-  color: #635bff; }
+  color: #635bff;
+  border-bottom: 1px solid #bbd8f4; }
   .link--light:hover {
     color: #0a2540; }
 
