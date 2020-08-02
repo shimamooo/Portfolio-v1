@@ -59,6 +59,34 @@ body {
   .heading-3--dark {
     color: #00d4ff; }
 
+.link:link, .link:visited {
+  text-decoration: none;
+  font-weight: 700;
+  transition: all .2s;
+  display: inline-block; }
+
+.link--light {
+  color: #635bff; }
+  .link--light:hover {
+    color: #0a2540; }
+
+.link--dark {
+  color: #00d4ff; }
+  .link--dark:hover {
+    color: #fff; }
+
+.link:hover {
+  transform: translateY(-1px); }
+
+.link:active {
+  transform: translateY(0.5px); }
+
+.link-separator {
+  font-size: 1.4rem; }
+
+.about__link {
+  grid-column: 1 / -1; }
+
 .header {
   display: flex;
   justify-content: space-between;

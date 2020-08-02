@@ -45,4 +45,40 @@
 }
 
 // LINKS
+.link {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    font-weight: $font-weight-bold;
+    transition: all .2s;
+    display: inline-block;
+  }
 
+  &--light {
+    color: $color-secondary;
+
+    &:hover {
+      color: $color-grey-dark-1;
+    }
+  }
+
+  &--dark {
+    color: $color-primary;
+    
+    &:hover {
+      color: $color-white;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0.5px);
+  }
+}
+
+.link-separator {
+  font-size: $font-size-xs;
+}
