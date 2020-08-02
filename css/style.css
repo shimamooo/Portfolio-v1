@@ -13,7 +13,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: #425466;
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.6; }
 
 .container {
@@ -34,6 +34,7 @@ body {
 
 .logo-occupation-text {
   font-size: 1.4rem;
+  font-weight: 400;
   color: #878b94;
   letter-spacing: 0.6px; }
 
