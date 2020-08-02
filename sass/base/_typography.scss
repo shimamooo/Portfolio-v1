@@ -1,0 +1,46 @@
+// LOGO
+.logo-name-text {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-medium;
+  color: $color-grey-dark-1;
+}
+
+.logo-occupation-text {
+  font-size: $font-size-xs;
+  color: $color-grey-light-1;
+  letter-spacing: 0.6px;
+}
+
+// HEADINGS
+.heading-2 {
+  font-size: $font-size-large;
+  font-family: $font-heading;
+  font-weight: $font-weight-bold;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+  grid-column: 1 / -1;
+  margin-top: -5rem;
+  margin-bottom: -2rem;
+
+  &--light {
+    color: $color-grey-dark-1;
+  }
+
+  &--dark {
+    color: $color-white;
+  }
+}
+
+.heading-3 {
+  font-family: $font-heading;
+  font-weight: $font-weight-bold;
+  grid-column: 1 / -1;
+
+  &--light {
+    color: $color-secondary;
+  }
+
+  &--dark {
+    color: $color-primary;
+  }
+}

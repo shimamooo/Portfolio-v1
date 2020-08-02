@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.contact {
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: $color-grey-dark-1;
+  }
+
+  svg:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+}

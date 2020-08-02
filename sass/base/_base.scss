@@ -1,0 +1,63 @@
+// COLOR VARIABLES
+$color-primary: #00d4ff;
+$color-secondary: #635bff;
+
+$color-grey-dark-1: #0a2540;
+$color-grey-dark-2: #425466;
+$color-grey-light-1: #878b94;
+$color-grey-light-2: #f6f9fc;
+
+$color-white: #fff;
+
+// FONT VARIABLES
+$font-content: 'Raleway', sans-serif;
+$font-heading: 'Nunito Sans', sans-serif;
+
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+
+$font-size-large: 6rem;
+$font-size-medium: 2.4rem;
+$font-size-small: 1.8rem;
+$font-size-xs: 1.4rem;
+
+// PADDING VARIABLES
+$padding-section: 10rem;
+
+// GLOBAL RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-content;
+  color: $color-grey-dark-2;
+  font-size: $font-size-small;
+  font-weight: $font-weight-normal;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: grid;
+  grid-gap: 5rem;
+
+  &--about {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr))
+  }
+
+  &--projects {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr))
+  }
+}
