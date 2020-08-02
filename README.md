@@ -1,3 +1,1 @@
 # Portfolio-v1
-
-I'm so dumb, didn't know I could use git push -f origin master to overwrite the origin...
