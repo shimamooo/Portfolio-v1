@@ -125,18 +125,20 @@ body {
 .project {
   border-radius: 2px;
   padding: 3rem;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086); }
-  .project__name {
-    color: #fff;
-    max-width: 60%;
-    font-size: 2.4rem;
-    font-family: "Nunito Sans", sans-serif; }
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+  background-size: cover; }
   .project--nexter {
-    background-image: url(../../img/nexter.png);
-    background-size: cover; }
+    background-image: url(../../img/nexter.png); }
+  .project--github {
+    background-image: url(../../img/github.png); }
   .project--natours {
-    background-image: url(../../img/natours.png);
-    background-size: cover; }
+    background-image: url(../../img/natours.png); }
+  .project--exchange {
+    background-image: url(../../img/exchange.png); }
+  .project--weather {
+    background-image: url(../../img/weather.png); }
+  .project--trillo {
+    background-image: url(../../img/trillo.png); }
 
 .showcase {
   display: grid;
