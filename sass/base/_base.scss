@@ -61,9 +61,14 @@ body {
   display: grid;
   grid-gap: 6rem 6rem;
 
-  &--about,
+  &--about {
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+
   &--projects {
-    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-auto-rows: 35vw;
+    margin-top: 6rem;
   }
 
   &--blog {

@@ -85,12 +85,3 @@
 .link-separator {
   font-size: $font-size-xs;
 }
-
-// HR
-.hr {
-  grid-column: 1 / -1;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba($color-primary, 0.2), rgba($color-secondary, 0.5), rgba($color-primary, 0.2));
-  margin: 5rem 0;
-}

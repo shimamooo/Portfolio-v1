@@ -22,8 +22,12 @@ body {
   padding: 0 8rem;
   display: grid;
   grid-gap: 6rem 6rem; }
-  .container--about, .container--projects {
+  .container--about {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)); }
+  .container--projects {
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-auto-rows: 35vw;
+    margin-top: 6rem; }
   .container--blog {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
 
@@ -87,13 +91,6 @@ body {
 .link-separator {
   font-size: 1.4rem; }
 
-.hr {
-  grid-column: 1 / -1;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 212, 255, 0.2), rgba(99, 91, 255, 0.5), rgba(0, 212, 255, 0.2));
-  margin: 5rem 0; }
-
 .about__biography {
   margin-bottom: 3rem; }
 
@@ -104,7 +101,9 @@ body {
   padding: 5rem;
   border-radius: 5px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
-  font-size: 2.4rem; }
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400; }
 
 .about__stat:not(:last-child) {
   margin-bottom: 3rem; }
@@ -123,8 +122,8 @@ body {
 .contact svg:not(:last-child) {
   margin-right: 2.5rem; }
 
-.projects {
-  color: #fff; }
+.project {
+  background-color: #0a2540; }
 
 .showcase {
   display: grid;
@@ -138,10 +137,14 @@ body {
   padding: 10rem 0;
   background-color: #f6f9fc; }
 
-.projects {
+.skills {
   padding: 10rem 0;
   background-color: #0a2540; }
 
-.blog {
+.projects {
   padding: 10rem 0;
   background-color: #fff; }
+
+.blog {
+  padding: 10rem 0;
+  background-color: #f6f9fc; }
