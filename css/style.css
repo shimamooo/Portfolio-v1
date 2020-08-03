@@ -126,19 +126,40 @@ body {
   border-radius: 2px;
   padding: 3rem;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
-  background-size: cover; }
+  background-size: cover;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  transition: all .5s;
+  position: relative; }
+  .project__name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center; }
+  .project__github {
+    position: absolute;
+    top: 2rem;
+    right: 2rem; }
+    .project__github svg {
+      width: 4rem;
+      height: 4rem;
+      fill: #fff; }
   .project--nexter {
-    background-image: url(../../img/nexter.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/nexter.png); }
   .project--github {
-    background-image: url(../../img/github.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/github.png); }
   .project--natours {
-    background-image: url(../../img/natours.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/natours.png); }
   .project--exchange {
-    background-image: url(../../img/exchange.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/exchange.png); }
   .project--weather {
-    background-image: url(../../img/weather.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/weather.png); }
   .project--trillo {
-    background-image: url(../../img/trillo.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/trillo.png); }
+  .project:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12); }
 
 .showcase {
   display: grid;
@@ -162,4 +183,4 @@ body {
 
 .blog {
   padding: 10rem 0;
-  background-color: #0a2540; }
+  background-color: #f6f9fc; }
