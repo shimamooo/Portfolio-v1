@@ -1,6 +1,5 @@
 .project {
   border-radius: 2px;
-  background-color: $color-grey-dark-1;
   padding: 3rem;
   box-shadow: $box-shadow;
 
@@ -9,5 +8,15 @@
     max-width: 60%;
     font-size: $font-size-medium;
     font-family: $font-heading;
+  }
+
+  &--nexter {
+    background-image: url(../../img/nexter.png);
+    background-size: cover;
+  }
+
+  &--natours {
+    background-image: url(../../img/natours.png);
+    background-size: cover;
   }
 }
