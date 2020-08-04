@@ -124,42 +124,40 @@ body {
 
 .project {
   border-radius: 2px;
-  padding: 3rem;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
   background-size: cover;
-  color: #fff;
+  transition: all .5s;
   display: grid;
   place-items: center;
-  transition: all .5s;
+  text-decoration: none;
   position: relative; }
+  .project:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12); }
   .project__name {
     font-size: 2.4rem;
     font-weight: 700;
     font-family: "Nunito Sans", sans-serif;
-    text-align: center; }
+    color: #fff; }
   .project__github {
     position: absolute;
     top: 2rem;
-    right: 2rem; }
-    .project__github svg {
-      width: 4rem;
-      height: 4rem;
-      fill: #fff; }
+    right: 2rem;
+    fill: #fff;
+    width: 4rem;
+    height: 4rem; }
   .project--nexter {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/nexter.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/nexter.png); }
   .project--github {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/github.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/github.png); }
   .project--natours {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/natours.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/natours.png); }
   .project--exchange {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/exchange.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/exchange.png); }
   .project--weather {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/weather.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/weather.png); }
   .project--trillo {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url(../../img/trillo.png); }
-  .project:hover {
-    transform: translateY(-1rem);
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/trillo.png); }
 
 .showcase {
   display: grid;
