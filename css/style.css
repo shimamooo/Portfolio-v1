@@ -112,7 +112,17 @@ body {
   background-image: url("../img/SVG/launch-project.svg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 250px; }
+  height: 220px;
+  animation: floating 5s ease-in-out infinite;
+  animation-delay: 0s; }
+
+@keyframes floating {
+  0% {
+    transform: translateY(-1rem); }
+  50% {
+    transform: translateY(1rem); }
+  100% {
+    transform: translateY(-1rem); } }
 
 .header {
   display: flex;
