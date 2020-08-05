@@ -11,10 +11,12 @@
   place-items: center;
   text-decoration: none;
   position: relative;
+  filter: hue-rotate(15deg);
 
   &:hover {
     transform: translateY(-1rem);
     box-shadow: $box-shadow-dark;
+    filter: hue-rotate(0);
 
     .project__github {
       opacity: 1;

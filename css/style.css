@@ -155,10 +155,12 @@ body {
   display: grid;
   place-items: center;
   text-decoration: none;
-  position: relative; }
+  position: relative;
+  filter: hue-rotate(15deg); }
   .project:hover {
     transform: translateY(-1rem);
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12); }
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    filter: hue-rotate(0); }
     .project:hover .project__github {
       opacity: 1;
       transform: translateY(-2rem); }
@@ -206,7 +208,7 @@ body {
   background-color: #f6f9fc; }
 
 .skills {
-  padding: 10rem 0;
+  padding: 20rem 0 15rem 0;
   background-color: #0a2540;
   clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%); }
 
