@@ -69,7 +69,8 @@ body {
   display: grid;
   grid-gap: 6rem 6rem;
 
-  &--about {
+  &--about,
+  &--skills {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   }
 
