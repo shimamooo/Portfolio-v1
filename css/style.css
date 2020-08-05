@@ -199,14 +199,21 @@ body {
   display: grid;
   place-items: center; }
 
-.skills__frontend {
-  background-color: white; }
+.skills__type {
+  margin-top: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.4rem; }
 
-.skills__tools {
-  background-color: white; }
-
-.skills__soft-skills {
-  background-color: white; }
+.skills__container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  color: #adbdcc;
+  font-weight: 400;
+  letter-spacing: 3px; }
 
 .showcase {
   height: 90vh;
