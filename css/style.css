@@ -238,9 +238,7 @@ body {
   .skill--bem img {
     height: 5rem;
     width: 5rem;
-    margin-bottom: 1rem;
-    transition: all .3s ease-in-out .1s;
-    fill: gray; }
+    margin-bottom: 1rem; }
 
 .showcase {
   height: 90vh;
