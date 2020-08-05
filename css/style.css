@@ -26,7 +26,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)); }
   .container--skills {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    column-gap: 15rem; }
+    justify-content: space-between; }
   .container--projects {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     grid-auto-rows: 38vw;
@@ -98,6 +98,12 @@ body {
   margin-bottom: -10rem; }
   .about__biography {
     margin-bottom: 3rem; }
+  .about__quote {
+    grid-column: 1 / -1;
+    padding: 0 10vw;
+    color: #878b94;
+    font-size: 3rem;
+    text-align: center; }
   .about__stats {
     grid-column: 1 / -1;
     background-color: #fff;
@@ -109,10 +115,17 @@ body {
     font-size: 2.4rem;
     font-weight: 400;
     position: relative;
-    overflow: hidden;
-    margin-bottom: 7vw; }
-  .about__stat:not(:last-child) {
-    margin-bottom: 3rem; }
+    overflow: hidden; }
+  .about__right-arrow {
+    fill: #00d4ff;
+    width: 3rem;
+    height: 3rem; }
+  .about__stat {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem; }
+    .about__stat:not(:last-of-type) {
+      margin-bottom: 4rem; }
   .about__picture {
     background-image: url("../img/SVG/launch-project.svg");
     background-repeat: no-repeat;
@@ -132,6 +145,10 @@ body {
     transform: translateY(1rem); }
   100% {
     transform: translateY(-1rem); } }
+
+.footer {
+  text-align: center;
+  color: #adbdcc; }
 
 .header {
   display: flex;
@@ -249,9 +266,9 @@ body {
   background-color: #f6f9fc; }
 
 .skills {
-  padding: 20rem 0 15rem 0;
+  padding: 15rem 0 15rem 0;
   background-color: #0a2540;
-  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 98%); }
+  clip-path: polygon(0 10%, 100% 4%, 100% 90%, 0 96%); }
 
 .projects {
   padding: 10rem 0;
@@ -260,3 +277,7 @@ body {
 .blog {
   padding: 10rem 0;
   background-color: #f6f9fc; }
+
+.footer {
+  padding: 3rem 0;
+  background-color: #0a2540; }

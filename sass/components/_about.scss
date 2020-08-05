@@ -5,6 +5,14 @@
     margin-bottom: 3rem;
   }
 
+  &__quote {
+    grid-column: 1 / -1;
+    padding: 0 10vw;
+    color: $color-grey-light-1;
+    font-size: 3rem;
+    text-align: center;
+  }
+
   &__stats {
     grid-column: 1 / -1;
     background-color: $color-white;
@@ -17,12 +25,21 @@
     font-weight: $font-weight-light;
     position: relative;
     overflow: hidden;
-    margin-bottom: 7vw;
+  }
+
+  &__right-arrow {
+    fill: $color-primary;
+    width: 3rem;
+    height: 3rem;
   }
 
   &__stat {
-    &:not(:last-child) {
-      margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    
+    &:not(:last-of-type) {
+      margin-bottom: 4rem;
     }
   }
 
