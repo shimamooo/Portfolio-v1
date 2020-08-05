@@ -11,6 +11,7 @@
 .skills {
   padding: $padding-section 0;
   background-color: $color-grey-dark-1;
+  clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
 }
 
 .projects {

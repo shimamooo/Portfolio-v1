@@ -91,37 +91,36 @@ body {
 .link-separator {
   font-size: 1.4rem; }
 
-.about__biography {
-  margin-bottom: 3rem; }
-
-.about__stats {
-  grid-column: 1 / -1;
-  background-color: #fff;
-  border: 1px solid white;
-  padding: 5rem;
-  border-radius: 5px;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 2.4rem;
-  font-weight: 400;
-  position: relative;
-  overflow: hidden; }
-
-.about__stat:not(:last-child) {
-  margin-bottom: 3rem; }
-
-.about__picture {
-  background-image: url("../img/SVG/launch-project.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 220px;
-  animation: floating 5s ease-in-out infinite;
-  animation-delay: 0s; }
-
-.about__background {
-  position: absolute;
-  top: 0;
-  left: 0; }
+.about {
+  margin-bottom: -10rem; }
+  .about__biography {
+    margin-bottom: 3rem; }
+  .about__stats {
+    grid-column: 1 / -1;
+    background-color: #fff;
+    border: 1px solid white;
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10rem; }
+  .about__stat:not(:last-child) {
+    margin-bottom: 3rem; }
+  .about__picture {
+    background-image: url("../img/SVG/launch-project.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    animation: floating 5s ease-in-out infinite;
+    animation-delay: 0s; }
+  .about__background {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 @keyframes floating {
   0% {
@@ -209,7 +208,8 @@ body {
 
 .skills {
   padding: 10rem 0;
-  background-color: #0a2540; }
+  background-color: #0a2540;
+  clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%); }
 
 .projects {
   padding: 10rem 0;

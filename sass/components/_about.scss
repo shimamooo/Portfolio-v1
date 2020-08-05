@@ -1,4 +1,6 @@
 .about {
+  margin-bottom: -10rem;
+
   &__biography {
     margin-bottom: 3rem;
   }
@@ -15,6 +17,7 @@
     font-weight: $font-weight-light;
     position: relative;
     overflow: hidden;
+    margin-bottom: 10rem;
   }
 
   &__stat {
