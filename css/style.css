@@ -160,17 +160,17 @@ body {
     opacity: 0;
     transition: all .4s ease-in-out; }
   .project--nexter {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/nexter.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../img/nexter.png); }
   .project--github {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/github.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../img/github.png); }
   .project--natours {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/natours.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../img/natours.png); }
   .project--exchange {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/exchange.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../img/exchange.png); }
   .project--weather {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/weather.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../img/weather.png); }
   .project--trillo {
-    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../../img/trillo.png); }
+    background-image: linear-gradient(to right, rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.75)), url(../img/trillo.png); }
 
 .showcase {
   display: grid;
