@@ -145,8 +145,7 @@ body {
   margin-right: 2.5rem; }
 
 .projects > :last-child {
-  margin-top: 10rem;
-  display: inline-block; }
+  margin-top: 10rem; }
 
 .project {
   border-radius: 2px;
