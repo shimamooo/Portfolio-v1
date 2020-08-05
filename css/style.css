@@ -108,6 +108,12 @@ body {
 .about__stat:not(:last-child) {
   margin-bottom: 3rem; }
 
+.about__picture {
+  background-image: url("../img/SVG/launch-project.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px; }
+
 .header {
   display: flex;
   justify-content: space-between;
