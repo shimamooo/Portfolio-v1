@@ -53,7 +53,8 @@ body {
   letter-spacing: -2px;
   grid-column: 1 / -1;
   margin-top: -6rem;
-  margin-bottom: -3rem; }
+  margin-bottom: -3rem;
+  line-height: 1; }
   .heading-2--light {
     color: #0a2540; }
   .heading-2--dark {
@@ -62,7 +63,8 @@ body {
 .heading-3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  grid-column: 1 / -1; }
+  grid-column: 1 / -1;
+  line-height: 3; }
   .heading-3--light {
     color: #635bff; }
   .heading-3--dark {
@@ -116,6 +118,9 @@ body {
     font-weight: 400;
     position: relative;
     overflow: hidden; }
+    .about__stats span {
+      color: #635bff;
+      font-weight: 700; }
   .about__right-arrow {
     fill: #00d4ff;
     width: 3rem;

@@ -25,6 +25,11 @@
     font-weight: $font-weight-light;
     position: relative;
     overflow: hidden;
+
+    span {
+      color: $color-secondary;
+      font-weight: $font-weight-bold;
+    }
   }
 
   &__right-arrow {

@@ -22,6 +22,7 @@
   grid-column: 1 / -1;
   margin-top: -6rem;
   margin-bottom: -3rem;
+  line-height: 1;
 
   &--light {
     color: $color-grey-dark-1;
@@ -36,6 +37,7 @@
   font-family: $font-heading;
   font-weight: $font-weight-bold;
   grid-column: 1 / -1;
+  line-height: 3;
 
   &--light {
     color: $color-secondary;
