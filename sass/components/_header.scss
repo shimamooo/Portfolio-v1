@@ -6,13 +6,22 @@
 }
 
 .contact {
+  a {
+    display: inline-block;
+  }
+
   svg {
     width: 2.5rem;
     height: 2.5rem;
     fill: $color-grey-dark-1;
+    transition: all .3s ease-in-out;
   }
 
-  svg:not(:last-child) {
+  a:not(:last-child) {
     margin-right: 2.5rem;
+  }
+
+  a:hover svg {
+    fill: $color-secondary;
   }
 }
