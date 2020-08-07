@@ -6,6 +6,14 @@ const repositories = fetch("https://api.github.com/users/AnthonyKuang")
   .then(data => data.public_repos)
   .then(repos => document.querySelector('#repositories').textContent = repos);
 
-fetch("https://api.github.com/users/AnthonyKuang")
-  .then(response => response.json())
-  .then(data => console.log(data));
+// MEDIUM
+fetch('https://api.medium.com/v1/me', {
+    method: 'GET',
+    mode: 'no-cors',
+    headers: new Headers(
+      {"Content-Type": "application/json",
+      "Accept": "application/json"}
+    )
+  }
+).then(response => response.json())
+ .then(json => console.log(json));
