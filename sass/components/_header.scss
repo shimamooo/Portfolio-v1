@@ -13,6 +13,7 @@
   svg {
     width: 2.5rem;
     height: 2.5rem;
+    opacity: 1;
     fill: $color-grey-dark-1;
     transition: all .3s ease-in-out;
   }
@@ -22,6 +23,7 @@
   }
 
   a:hover svg {
-    fill: $color-secondary;
+    transform: translateY(-0.5rem);
+    opacity: 0.5;
   }
 }

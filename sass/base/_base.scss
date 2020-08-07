@@ -76,7 +76,6 @@ body {
 
   &--skills {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    justify-content: space-between;
   }
 
   &--projects {

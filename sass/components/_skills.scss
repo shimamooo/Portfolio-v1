@@ -1,11 +1,8 @@
 .skills {
   &__type {
     margin-top: 3rem;
-    color: $color-white;
-    text-transform: uppercase;
-    text-align: center;
     font-size: $font-size-medium;
-    color: $color-grey-light-3;
+    color: $color-primary;
   }
 
   &__container {
@@ -24,7 +21,6 @@
 }
 
 .skill {
-  justify-self: center;
   display: grid;
   justify-items: center;
 

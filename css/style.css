@@ -25,8 +25,7 @@ body {
   .container--about {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)); }
   .container--skills {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    justify-content: space-between; }
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); }
   .container--projects {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     grid-auto-rows: 38vw;
@@ -170,10 +169,8 @@ body {
   margin: 3rem 0;
   border-radius: 5px; }
 
-.blog__link:link, .blog__link:visited {
-  text-decoration: none;
-  color: #635bff;
-  font-weight: 700; }
+.blog__title {
+  font-weight: 500; }
 
 .footer {
   text-align: center;
@@ -191,6 +188,7 @@ body {
 .contact svg {
   width: 2.5rem;
   height: 2.5rem;
+  opacity: 1;
   fill: #0a2540;
   transition: all .3s ease-in-out; }
 
@@ -198,7 +196,8 @@ body {
   margin-right: 2.5rem; }
 
 .contact a:hover svg {
-  fill: #635bff; }
+  transform: translateY(-0.5rem);
+  opacity: 0.5; }
 
 .projects > :last-child {
   margin-top: 10rem; }
@@ -257,11 +256,8 @@ body {
 
 .skills__type {
   margin-top: 3rem;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
   font-size: 2.4rem;
-  color: #adbdcc; }
+  color: #00d4ff; }
 
 .skills__container {
   margin-top: 4rem;
@@ -275,7 +271,6 @@ body {
     filter: grayscale(0); }
 
 .skill {
-  justify-self: center;
   display: grid;
   justify-items: center; }
   .skill svg {

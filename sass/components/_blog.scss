@@ -21,11 +21,7 @@
     border-radius: 5px;
   }
 
-  &__link:link,
-  &__link:visited {
-    text-decoration: none;
-    color: $color-secondary;
-    font-weight: $font-weight-bold;
-
+  &__title {
+    font-weight: $font-weight-normal;
   }
 }
