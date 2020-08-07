@@ -1,4 +1,29 @@
 .showcase {
   display: grid;
   place-items: center;
+
+  &__title {
+    transform: translateY(-8rem);
+    font-size: $font-size-huge;
+    font-weight: $font-weight-light;
+    animation: typing 4s steps(14);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 5px solid $color-secondary;
+  }
+
+  &__name {
+    color: $color-secondary;
+    font-weight: $font-weight-normal;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 14ch;
+  }
 }
