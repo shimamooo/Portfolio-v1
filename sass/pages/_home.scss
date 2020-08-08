@@ -1,5 +1,5 @@
 .showcase {
-  height: 90vh; // calc(100vh - header) give header height of 6rem
+  height: 90vh;
   background-color: $color-white;
 }
 
@@ -12,6 +12,10 @@
   padding: 15rem 0 15rem 0;
   background-color: $color-grey-dark-1;
   clip-path: polygon(0 10%, 100% 4%, 100% 90%, 0 96%);
+
+  @media only screen and (max-width: $bp-medium) {
+    clip-path: polygon(0 5%, 100% 2%, 100% 95%, 0 98%);
+  }
 }
 
 .projects {

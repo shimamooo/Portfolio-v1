@@ -27,6 +27,10 @@
     overflow: hidden;
     margin-bottom: 5rem;
 
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 4rem 2rem;
+    }
+
     span {
       color: $color-secondary;
       font-weight: $font-weight-bold;
@@ -37,6 +41,11 @@
     fill: $color-primary;
     width: 3rem;
     height: 3rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   &__stat {

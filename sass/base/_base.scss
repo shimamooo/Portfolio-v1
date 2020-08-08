@@ -42,6 +42,12 @@ $box-shadow-dark:
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12); 
 
+// BREAKPOINTS
+$bp-large: 62.5em;
+$bp-medium: 41.25em;
+$bp-small: 35em;
+$bp-smallest: 21.875em;
+
 // GLOBAL RESET
 *,
 *::before,
@@ -54,6 +60,14 @@ $box-shadow-dark:
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 45%;
+  }
 }
 
 body {
@@ -70,6 +84,10 @@ body {
   padding: 0 8rem;
   display: grid;
   grid-gap: 6rem 6rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 0 4rem;
+  }
 
   &--about {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));

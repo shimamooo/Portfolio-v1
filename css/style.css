@@ -8,6 +8,12 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 62.5em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 62.5em) {
+    html {
+      font-size: 45%; } }
 
 body {
   font-family: "Raleway", sans-serif;
@@ -22,6 +28,9 @@ body {
   padding: 0 8rem;
   display: grid;
   grid-gap: 6rem 6rem; }
+  @media only screen and (max-width: 35em) {
+    .container {
+      padding: 0 4rem; } }
   .container--about {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)); }
   .container--skills {
@@ -118,6 +127,9 @@ body {
     position: relative;
     overflow: hidden;
     margin-bottom: 5rem; }
+    @media only screen and (max-width: 21.875em) {
+      .about__stats {
+        padding: 4rem 2rem; } }
     .about__stats span {
       color: #635bff;
       font-weight: 700; }
@@ -125,6 +137,10 @@ body {
     fill: #00d4ff;
     width: 3rem;
     height: 3rem; }
+    @media only screen and (max-width: 21.875em) {
+      .about__right-arrow {
+        width: 2rem;
+        height: 2rem; } }
   .about__stat {
     display: flex;
     align-items: center;
@@ -181,6 +197,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem; }
+  @media only screen and (max-width: 21.875em) {
+    .header {
+      flex-direction: column; } }
 
 .contact a {
   display: inline-block; }
@@ -206,6 +225,9 @@ body {
     height: 6rem; }
   .logo__name {
     margin-left: 1rem; }
+  @media only screen and (max-width: 21.875em) {
+    .logo {
+      margin-bottom: 3rem; } }
 
 .projects > :last-child {
   margin-top: 10rem; }
@@ -325,6 +347,9 @@ body {
   padding: 15rem 0 15rem 0;
   background-color: #0a2540;
   clip-path: polygon(0 10%, 100% 4%, 100% 90%, 0 96%); }
+  @media only screen and (max-width: 41.25em) {
+    .skills {
+      clip-path: polygon(0 5%, 100% 2%, 100% 95%, 0 98%); } }
 
 .projects {
   padding: 3rem 0 10rem 0;
