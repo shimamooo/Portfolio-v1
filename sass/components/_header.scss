@@ -27,3 +27,16 @@
     opacity: 0.5;
   }
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    height: 6rem;
+  }
+
+  &__name {
+    margin-left: 1rem;
+  }
+}

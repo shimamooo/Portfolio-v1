@@ -199,6 +199,14 @@ body {
   transform: translateY(-0.5rem);
   opacity: 0.5; }
 
+.logo {
+  display: flex;
+  align-items: center; }
+  .logo__img {
+    height: 6rem; }
+  .logo__name {
+    margin-left: 1rem; }
+
 .projects > :last-child {
   margin-top: 10rem; }
 
