@@ -286,20 +286,12 @@ body {
   .showcase__title {
     transform: translateY(-8rem);
     font-size: 9rem;
-    font-weight: 400;
-    animation: typing 4s steps(14);
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 5px solid #635bff; }
+    font-weight: 400; }
   .showcase__name {
     color: #635bff;
     font-weight: 500; }
-
-@keyframes typing {
-  0% {
-    width: 0ch; }
-  100% {
-    width: 14ch; } }
+  .showcase__txt {
+    border-right: 0.4rem solid #635bff; }
 
 .skills__type {
   margin-top: 3rem;
