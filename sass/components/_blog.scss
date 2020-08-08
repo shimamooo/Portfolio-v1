@@ -18,10 +18,10 @@
     object-fit: cover;
     display: block;
     margin: 3rem 0;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 
   &__title {
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-bold;
   }
 }
