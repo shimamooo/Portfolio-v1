@@ -285,7 +285,7 @@ body {
   place-items: center; }
   .showcase__title {
     transform: translateY(-8rem);
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: 400; }
   .showcase__name {
     color: #635bff;
